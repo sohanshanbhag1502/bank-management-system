@@ -435,7 +435,7 @@ void printoptions(){
                 acc->updatekyc();
             }
             case 6:{
-                /Code for tranfering fund : Suchir/
+                /*Code for tranfering fund : Suchir*/
               long long int recipient_account_no;
               long long int recipient_amount;
               Account *recipient_acc;
