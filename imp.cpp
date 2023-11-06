@@ -13,7 +13,7 @@ Account::Account(int flag){
     while (findacc(this->accno)==1){
         this->accno=randgen(10);
     }
-    this->debval=;
+    this->debval=-1;
     this->debno=-1;
     this->balance=0;
 }
