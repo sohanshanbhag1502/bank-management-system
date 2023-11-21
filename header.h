@@ -13,8 +13,8 @@ typedef enum{
 }CHOICE;
 
 // Account class declaration
-class Account{
-    private:
+class AccountDetails{
+    protected:
         // Declaration of variables for storing personal details
         // debval is debit card validity
         long long int accno, debno;
@@ -22,7 +22,8 @@ class Account{
         char name[40], fname[40], gender[7], address[1000], 
         maritial[10], nationality[40], acctype[8], dob[9], email[50];
         int age, debval;
-
+};
+class Account:public AccountDetails{
     public:
         // declaration of constructors and functions
         Account();
@@ -36,6 +37,7 @@ class Account{
         void deposit(long long int amount);
         void withdraw(long long int amount);
         void updatekyc();
+        friend Account* getaccount(long long int accno);
         static int findacc(long long int key);
         static int finddeb(long long int key);
 };
