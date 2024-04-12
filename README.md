@@ -8,7 +8,7 @@ Implementation of bank management system in C++ using file I/O and shell interfa
     ```
     g++ main.cpp imp.cpp -o build.exe
     ```
-  * For UNX Systems:
+  * For UNIX Systems:
     ```
     g++ main.cpp imp.cpp -o build.out
     ``` 
