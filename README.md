@@ -5,11 +5,19 @@ Implementation of bank management system in C++ using file I/O and shell interfa
 ## Instructions for compilation:
 - Run the following command to build an executable file:
   * For Windows Systems:
-    > g++ main.cpp imp.cpp -o build.exe
+    ```
+    g++ main.cpp imp.cpp -o build.exe
+    ```
   * For UNX Systems:
-    > g++ main.cpp imp.cpp -o build.out 
+    ```
+    g++ main.cpp imp.cpp -o build.out
+    ``` 
 - Run the following command to run the file:
     * For Windows Systems:
-      > ./build.exe
+      ```
+      ./build.exe
+      ```
     * For UNIX Systems:
-      > ./build.out
+      ```
+      ./build.out
+      ```
